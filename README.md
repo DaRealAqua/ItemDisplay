@@ -9,8 +9,8 @@
 
 # IP: play.nspe.ml
 # Port: 19132
-# Vote: https//bit.ly/NspeVote
-# Store: https//nspe.buycraft.net/
+# Vote: https://bit.ly/NspeVote
+# Store: https://nspe.buycraft.net/
 
 
 # My discord: AlexItz16#7047
