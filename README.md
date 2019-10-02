@@ -9,7 +9,6 @@ https://github.com/AlexItz16/ItemDisplay/blob/master/Screenshot_20191002-182053.
 
 # My server:
 
-#
 - IP: play.nspe.ml
 - Port: 19132
 
@@ -17,9 +16,13 @@ https://github.com/AlexItz16/ItemDisplay/blob/master/Screenshot_20191002-182053.
 - Store: https://nspe.buycraft.net/
 
 
+
 # My discord:
+
 - AlexItz16#7047
 
 
+
 # My discord server:
+
 - https://discord.io/NspeNetwork1
