@@ -5,6 +5,8 @@
 - This plugin makes all items thrown down appear their name in floating text
 
 
+https://github.com/AlexItz16/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
+
 # My server:
 
 # IP: play.nspe.ml
