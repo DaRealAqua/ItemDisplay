@@ -6,6 +6,8 @@
 
 
 https://github.com/AlexItz16/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
+https://github.com/AlexItz16/ItemDisplay/blob/223100056878c09f9af6637a8a32dff69946e27c/Max-Resolution.gif
+
 
 # My server:
 
