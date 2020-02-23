@@ -1,6 +1,7 @@
 name: ItemDropText
 main: ItemText\Main
-version: 1.0.0
-api: [1.0.0, 3.0.0, 4.0.0]
-load: POSTWORLD
+version: 2.0.0
+api: [3.0.0]
 author: AlexItz16
+load: POSTWORLD
+
