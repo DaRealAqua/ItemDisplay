@@ -56,6 +56,6 @@ class Main extends PluginBase implements Listener
         $entity->setNameTagVisible(true);
         $entity->setNameTagAlwaysVisible(true);
         //Message onThrow
-        $player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
+        #$player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
     }
 }
