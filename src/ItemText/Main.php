@@ -44,8 +44,8 @@ class Main extends PluginBase implements Listener
         $this->getLogger()->notice(TextFormat::LIGHT_PURPLE."ItemDisplayText Disabled!");
     }
 
-    public function onThrow(ItemSpawnEvent $e){
-        $player = $e->getPlayer();
+    public function onThrow(ItemSpawnEvent $event){
+        $player = $event->getPlayer();
         $name = $player->getName();
        
         $entity = $e->getEntity();
