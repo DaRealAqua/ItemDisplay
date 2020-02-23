@@ -48,14 +48,13 @@ class Main extends PluginBase implements Listener
         $player = $e->getPlayer();
         $name = $player->getName();
        
-        $item = $e->getEntity();
-        $item = $item->getItem();
+        $entity = $e->getEntity();
+        $item = $entity->getItem();
         $itemname = $item->getName();
-        $item->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
-        $item->setNameTagVisible(true);
-        $item->setNameTagAlwaysVisible(true);
+        $entity->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
+        $entity->setNameTagVisible(true);
+        $entity->setNameTagAlwaysVisible(true);
         //Message onThrow
         $player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
-        
     }
 }
