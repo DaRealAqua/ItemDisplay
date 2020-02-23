@@ -36,9 +36,11 @@ class Main extends PluginBase implements Listener
 
     public function onEnable() {
 	$this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->getLogger()->notice(TextFormat::LIGHT_PURPLE."ItemDisplayText Enabled");
     }
     
     public function onDisable() {
+        $this->getLogger()->notice(TextFormat::LIGHT_PURPLE."ItemDisplayText Disabled!");
     }
 
     public function onItemSpawn(ItemSpawnEvent $e){
