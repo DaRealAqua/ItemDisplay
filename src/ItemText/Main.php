@@ -47,14 +47,15 @@ class Main extends PluginBase implements Listener
     public function onThrow(ItemSpawnEvent $e){
         $player = $e->getPlayer();
         $name = $player->getName();
+       
         $item = $e->getEntity();
-        $item = $entity->getItem();
-        $name = $item->getName();
-        $item->setNameTag(TextFormat::LIGHT_PURPLE.$name);
+        $item = $item->getItem();
+        $itemname = $item->getName();
+        $item->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
         $item->setNameTagVisible(true);
         $item->setNameTagAlwaysVisible(true);
         //Message onThrow
-        $player->sendMessage("You threw". $item);
+        $player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
         
     }
 }
