@@ -11,7 +11,7 @@
 namespace ItemText;
 
 use pocketmine\plugin\Plugin;
-use pocketmine\utils\TextFormat as Color;
+use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\Server;
@@ -29,11 +29,11 @@ class Main extends PluginBase implements Listener
 	}
     
     public function onItemSpawn(ItemSpawnEvent $e){
-        $entity = $e->getEntity();
+        $item = $e->getEntity();
         $item = $entity->getItem();
         $name = $item->getName();
-        $entity->setNameTag($name);
-        $entity->setNameTagVisible(true);
-        $entity->setNameTagAlwaysVisible(true);
+        $item->setNameTag(TextFormat::LIGHT_PURPLE.$name);
+        $item->setNameTagVisible(true);
+        $item->setNameTagAlwaysVisible(true);
     }
 }
