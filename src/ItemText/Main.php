@@ -58,4 +58,7 @@ class Main extends PluginBase implements Listener
         //Message onThrow
         #$player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
     }
+
+    public function onDropMsg(ItemDropEvent $event){
+    }
 }
