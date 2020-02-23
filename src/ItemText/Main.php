@@ -45,6 +45,7 @@ class Main extends PluginBase implements Listener
     }
 
     public function onThrow(ItemSpawnEvent $event){
+        //Soon perWorld config!!!
         $player = $event->getPlayer();
         $name = $player->getName();
        
