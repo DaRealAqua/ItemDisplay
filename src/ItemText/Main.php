@@ -10,14 +10,24 @@
 
 namespace ItemText;
 
-use pocketmine\plugin\Plugin;
-use pocketmine\utils\TextFormat;
+//Plugin
 use pocketmine\plugin\PluginBase;
+use pocketmine\plugin\Plugin;
+
+//Utils
+use pocketmine\utils\TextFormat;
+
+//Event
 use pocketmine\event\Listener;
-use pocketmine\Server;
-use pocketmine\command\CommandSender;
-use pocketmine\item\Item;
 use pocketmine\event\entity\ItemSpawnEvent;
+
+//Server
+use pocketmine\Server;
+
+//Item
+use pocketmine\item\Item;
+
+//Entity
 use pocketmine\entity\Entity;
 
 
