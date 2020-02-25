@@ -1,12 +1,11 @@
 # ItemDisplay
 
-# This plugin was made by AlexItz16
+# This plugin was made by TheRealAlex
 
 - This plugin makes all items thrown down appear their name in floating text
 
 
-https://github.com/AlexItz16/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
-https://github.com/AlexItz16/ItemDisplay/blob/223100056878c09f9af6637a8a32dff69946e27c/Max-Resolution.gif
+https://github.com/TheRealAlex1/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
 
 
 # My server:
@@ -21,10 +20,10 @@ https://github.com/AlexItz16/ItemDisplay/blob/223100056878c09f9af6637a8a32dff699
 
 # My discord:
 
-- AlexItz16#7047
+- TheRealAlex#7047
 
 
 
 # My discord server:
 
-- https://discord.io/NspeNetwork1
+- https://discord.io/NspeNetwork
