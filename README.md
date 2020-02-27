@@ -20,7 +20,7 @@ https://github.com/TheRealAlex1/ItemDisplay/blob/master/Screenshot_20191002-1820
 
 # My discord:
 
-- TheRealAlex#7047
+- DaRealAqua#7047
 
 
 
