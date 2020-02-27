@@ -1,6 +1,6 @@
 # ItemDisplay
 
-# This plugin was made by TheRealAlex
+# This plugin was made by DaRealAqua
 
 - This plugin makes all items thrown down appear their name in floating text
 
