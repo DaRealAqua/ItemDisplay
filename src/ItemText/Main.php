@@ -49,7 +49,7 @@ class Main extends PluginBase implements Listener
         $player = $event->getPlayer();
         $name = $player->getName();
        
-        $entity = $e->getEntity();
+        $entity = $event->getEntity();
         $item = $entity->getItem();
         $itemname = $item->getName();
         $entity->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
