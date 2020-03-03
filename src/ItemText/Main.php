@@ -45,9 +45,9 @@ class Main extends PluginBase implements Listener
     }
 
     public function onThrow(ItemSpawnEvent $event){
-        //Soon perWorld config!!!
-        $player = $event->getPlayer();
-        $name = $player->getName();
+        #Soon perWorld config!!!
+        #$player = $event->getPlayer();
+        #$name = $player->getName();
        
         $entity = $event->getEntity();
         $item = $entity->getItem();
@@ -55,7 +55,7 @@ class Main extends PluginBase implements Listener
         $entity->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
         $entity->setNameTagVisible(true);
         $entity->setNameTagAlwaysVisible(true);
-        //Message onThrow
+        //Message onThrow Soon
         #$player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
     }
 
