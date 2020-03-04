@@ -1,11 +1,11 @@
-# ItemDisplay
+# ItemDisplay (PocketMine)
 
-# This plugin was made with love by DaRealAqua
+- This plugin was made with love by DaRealAqua
 
 - This plugin makes all items thrown down appear their name in floating text
 
 
-https://github.com/DaRealAqua/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
+# https://github.com/DaRealAqua/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
 
 
 # My server:
