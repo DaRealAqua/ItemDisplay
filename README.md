@@ -1,4 +1,4 @@
-# ItemDisplay (PocketMine)
+### ItemDisplay (PocketMine)
 
 - This plugin was made with love by DaRealAqua
 
@@ -8,16 +8,11 @@
 https://github.com/DaRealAqua/ItemDisplay/blob/master/Screenshot_20191002-182053.jpg
 
 
-# My server:
+### My server:
 
-- IP: play.nspe.ml
+- IP: play.Xerox.tk
 - Port: 19132
 
-- Vote: https://bit.ly/NspeVote
-- Store: https://nspe.buycraft.net/
-- Discord: https://discord.io/NspeNetwork
-
-
-# My discord:
-
-- DaRealAqua#7047
+### Discord info:
+- My IGN: DaRealAqua#1987
+- Server: https://Discord.io/XeroxNetwork
