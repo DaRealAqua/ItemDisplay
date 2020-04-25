@@ -36,28 +36,28 @@ class Main extends PluginBase implements Listener
 
     public function onEnable() {
 	$this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->notice(TextFormat::LIGHT_PURPLE."ItemDisplayText Enabled");
+        $this->getLogger()->notice(TextFormat::GREEN."ItemDisplayText Enabled");
         //Config soon!!!!!
     }
     
     public function onDisable() {
-        $this->getLogger()->notice(TextFormat::LIGHT_PURPLE."ItemDisplayText Disabled!");
+        $this->getLogger()->notice(TextFormat::RED."ItemDisplayText Disabled!");
     }
 
-    //Don't edit anything unless you know what you're doing
+    //Don't edit anything unless you know what you're doing!!
+
     public function onThrow(ItemSpawnEvent $event){
-        #Soon perWorld config!!!
-        #$player = $event->getPlayer();
-        #$name = $player->getName();
-       
+  
         $entity = $event->getEntity();
+
         $item = $entity->getItem();
         $itemname = $item->getName();
+
         $entity->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
+
         $entity->setNameTagVisible(true);
         $entity->setNameTagAlwaysVisible(true);
-        //Message onThrow Soon
-        #$player->sendMessage(TextFormat::GRAY."You threw "TextFormat::LIGHT_PURPLE. $itemname);
+        
     }
 
     
