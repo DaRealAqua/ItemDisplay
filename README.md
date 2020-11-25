@@ -5,9 +5,13 @@
 
 
 
+
+
  **Subscribe to my Channel!**
 
  [YouTube Channel](http://youtube.lexuspe.xyz)
+
+
 
 
 
@@ -27,4 +31,4 @@
 
  **📸Images**
  
- ![Image1]()
+ ![Image1](https://cdn.discordapp.com/attachments/508242454173057025/781230219973361694/IMG_0819.jpg)
