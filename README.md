@@ -4,7 +4,9 @@
  📜Description: This plugin makes all items thrown down appear their name and amount in floating text.
 
 
-
+ 🔖Updates Soon!!
+ - Config
+ - and Much more...
 
 
  **Subscribe to my Channel!**
