@@ -1,17 +1,30 @@
-## ItemDisplay (PocketMine)
+# ITEM DISPLAY PLUGIN
 
-- This plugin was made with love by DaRealAqua^_^
 
-- This plugin makes all items thrown down appear their name in floating text
+ 📜Description: This plugin makes all items thrown down appear their name and amount in floating text.
 
-### My Socials:
-- Discord: DaRealAqua#9324
-- YouTube: DaRealAqua
 
-## LexusDevs:
-- Discord: https://discord.gg/nzTwkXM
 
-## My server:
-- IP: play.LexusPE.xyz
-- Port: 19132
-- Discord: http://discord.lexuspe.xyz
+ **Subscribe to my Channel!**
+
+ [YouTube Channel](http://youtube.lexuspe.xyz)
+
+
+
+ **Join my Discord Servers!**
+
+ [LexusDevs Discord](https://discord.gg/nzTwkXM)
+
+ [LexusPE Discord](http://discord.lexuspe.xyz)
+
+ 
+
+ **👥Credits**
+```
+ - DaRealAqua
+```
+
+
+ **📸Images**
+ 
+ ![Image1]()
