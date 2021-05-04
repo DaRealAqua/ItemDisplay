@@ -10,55 +10,35 @@
 
 namespace ItemText;
 
-//Plugin
 use pocketmine\plugin\PluginBase;
 use pocketmine\plugin\Plugin;
-
-//Utils
 use pocketmine\utils\TextFormat;
-
-//Event
 use pocketmine\event\Listener;
 use pocketmine\event\entity\ItemSpawnEvent;
-
-//Server
 use pocketmine\Server;
-
-//Item
 use pocketmine\item\Item;
-
-//Entity
 use pocketmine\entity\Entity;
-
 
 class Main extends PluginBase implements Listener
 {
 
     public function onEnable() {
 	$this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->notice(TextFormat::GREEN."ItemDisplayText Enabled");
-        //Config soon!!!!!
+        $this->getLogger()->notice(TextFormat::GREEN." Enabled");
+        // TODO: CONFIG
     }
     
     public function onDisable() {
-        $this->getLogger()->notice(TextFormat::RED."ItemDisplayText Disabled!");
+        $this->getLogger()->notice(TextFormat::RED." Disabled!");
     }
 
-    //Don't edit anything unless you know what you're doing!!
-
-    public function onThrow(ItemSpawnEvent $event){
-  
+    // TODO: CONFIG
+    public function onSPawn(ItemSpawnEvent $event){
         $entity = $event->getEntity();
-
         $item = $entity->getItem();
         $itemname = $item->getName();
-
         $entity->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
-
         $entity->setNameTagVisible(true);
         $entity->setNameTagAlwaysVisible(true);
-        
     }
-
-    
 }
