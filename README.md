@@ -1,5 +1,6 @@
 # ITEM DISPLAY PLUGIN
 
+<img src="https://discordapp.com/api/guilds/646732504744853518/widget.png?style=shield" alt="AquaDevs Discord"/>
 
  📜Description: This plugin makes all items thrown down appear their name and amount in floating text.
 
@@ -19,9 +20,9 @@
 
  **Join my Discord Servers!**
 
- [LexusDevs Discord](https://discord.gg/nzTwkXM)
+ [AquaDevs Discord](https://discord.gg/5pxFZHmsC7)
 
- [LexusPE Discord](http://discord.lexuspe.xyz)
+ [Levania Discord](https://discord.gg/Axa33MgXJ9)
 
  
 
