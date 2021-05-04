@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener
     }
 
     // TODO: CONFIG
-    public function onSPawn(ItemSpawnEvent $event){
+    public function onSpawn(ItemSpawnEvent $event){
         $entity = $event->getEntity();
         $item = $entity->getItem();
         $itemname = $item->getName();
