@@ -1,5 +1,5 @@
 name: ItemDisplay
-main: ItemText\Main
+main: ItemDisplay\Main
 version: 2.0.0
 api: [3.0.0]
 author: DaRealAqua
