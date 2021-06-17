@@ -12,7 +12,7 @@ namespace ItemDisplay;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\plugin\Plugin;
-use pocketmine\utils\TextFormat;
+use pocketmine\utils\TextFormat as C;
 use pocketmine\event\Listener;
 use pocketmine\event\entity\ItemSpawnEvent;
 use pocketmine\Server;
@@ -36,8 +36,9 @@ class Main extends PluginBase implements Listener
     public function onSpawn(ItemSpawnEvent $event){
         $entity = $event->getEntity();
         $item = $entity->getItem();
-        $itemname = $item->getName();
-        $entity->setNameTag(TextFormat::LIGHT_PURPLE.$itemname);
+        $iname = $item->getName();
+	$icount = $item->getCount();
+        $entity->setNameTag(C::GREEN . $icount . "x " . $iname);
         $entity->setNameTagVisible(true);
         $entity->setNameTagAlwaysVisible(true);
     }
