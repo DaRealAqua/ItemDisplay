@@ -8,7 +8,7 @@
                                           |_|            
 */
 
-namespace ItemText;
+namespace ItemDisplay;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\plugin\Plugin;
