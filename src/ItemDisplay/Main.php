@@ -42,7 +42,7 @@ class Main extends PluginBase implements Listener
         $item = $entity->getItem();
         $iname = $item->getName();
 	$icount = $item->getCount();
-        $entity->setNameTag(C::GREEN . $icount . "x " . $iname);
+        $entity->setNameTag(C::GRAY . $icount . "x " . $iname);
         $entity->setNameTagVisible(true);
         $entity->setNameTagAlwaysVisible(true);
     }
