@@ -26,16 +26,9 @@ class Main extends PluginBase implements Listener
     public function onEnable() 
     {
 	$this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info(C::GREEN . " Enabled");
         // TODO: CONFIG
     }
-    
-    public function onDisable() 
-    {
-        $this->getLogger()->info(C::RED . " Disabled!");
-    }
-
-
+	
     public function onSpawn(ItemSpawnEvent $event)
     {
         $entity = $event->getEntity();
