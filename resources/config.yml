@@ -1,6 +1,7 @@
-# coming soon...
+# config coming soon...
 #
-# version: 0.0.2
+# Don't edit plugin version!
+# version: "0.0.2"
 #
 # Display item count and name
 # default-format: "{item_count}x {item_name}"
