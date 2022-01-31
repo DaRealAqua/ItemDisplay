@@ -23,13 +23,13 @@ use pocketmine\event\entity\ItemSpawnEvent;
 class Main extends PluginBase implements Listener
 {
 
-    public function onEnable() 
+    protected function onEnable() : void
     {
 	$this->getServer()->getPluginManager()->registerEvents($this, $this);
         // TODO: CONFIG
     }
 	
-    public function onSpawn(ItemSpawnEvent $event)
+    public function onSpawn(ItemSpawnEvent $event) : void
     {
         $entity = $event->getEntity();
         $item = $entity->getItem();
