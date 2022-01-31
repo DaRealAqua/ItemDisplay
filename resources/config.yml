@@ -1,6 +1,8 @@
 # coming soon...
 #
-# Display item Infos
+# version: 0.0.2
+#
+# Display item count and name
 # default-format: "{item_count}x {item_name}"
 #
 # Enable DisplayItem in these worlds
