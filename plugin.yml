@@ -1,7 +1,7 @@
 name: ItemDisplay
 main: darealaqua\itemdisplay\Main
-version: 0.0.1
-api: 3.0.0
+version: 0.0.2
+api: 4.0.0
 author: DaRealAqua
 load: POSTWORLD
 
