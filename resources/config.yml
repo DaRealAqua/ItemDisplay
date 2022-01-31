@@ -1,1 +1,8 @@
 # coming soon...
+#
+# Display item Infos
+# default-format: "{item_count}x {item_name}"
+#
+# Enable DisplayItem in these worlds
+# worlds:
+# - "world"
